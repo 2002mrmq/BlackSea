@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    margin:0%;
+}
+#header{
+    /*height: 40%;*/
+    max-width: 100%;
+    background-color: rgb(115, 161, 196);
+    display: flex;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+span{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 50px;
+    margin-left: 10%;
+}
+#home{
+    color: white;
+    font-size: 20px;
+    margin-left: 20%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+#aboutMe{
+    color: white;
+    font-size: 20px;
+    margin-left: 5%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+
+}
+#div1{
+   /* height: auto;*/
+    max-width: 100%;
+    background: url(sea3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%, 30%;
+    padding: 5%;;
+}
+#text1{
+    color:white;
+    font-size: 50px;
+    font-family: inherit;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 27%;
+   display: inline-block;
+}
+
+button{
+    width: 20%;
+    margin-left: 39.5%;
+    margin-top: 2%;
+    background-color: rgba(255, 255, 255, 0.247);
+    padding: 1%;
+    color: white;
+    border: 1%;
+    border-color: white;
+}
+#div2{
+    /*height: 30%;*/
+    max-width: 100%;
+    padding: 5%;;
+}
+#text3{
+    font-weight: normal;
+     text-align: center;
+}
+
+#text5{
+   font-weight: lighter;
+   text-align: center;
+   margin-left: 10%;
+}
+.icons_1{
+    margin-left: 45% ;
+}
+.icons_2{
+    margin-left:5% ;
+}
+.icons_3{
+    margin-left: 5%;
+    margin-right:40%;
+}
+#text6{
+    font-weight: normal;
+    margin-left: 350px;
+    line-height: 0em;
+}
+#btn{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    margin-top: 50px;
+    margin-left: 600px;
+    background-image: url(logo1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%, 50%;
+}
+#div3{
+    padding:5%;
+    max-width: 100%;
+    /*height: 30%;*/
+    background-color: rgb(96, 205, 131);
+}
+#name_div31{
+    margin-left: 100%;
+    color: white;
+    font-size: 30px;
+}
+#div31{
+    width: 200px;
+    height: 150px;
+    margin: auto;
+    background-color: black;
+    border-radius: 100%;
+    background-image: url(borderjpg.jpg);
+}
+#text7{
+    text-align-last: justify;
+    /*margin-left: 200px;*/
+    direction: rtl;
+}
+.div4{
+    max-width: 100%;
+    position: relative;
+    height: 500px;
+    z-index: -1000;
+}
+.map{
+    width: 100%;
+    height: 500px;
+}
+.register{
+    width: 400px;
+    height: 400px;
+    background-color: rgba(224, 231, 233, 0.756);
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+#name_input{
+    width: 250px;
+    height: 30px;
+    margin-left: 75px;
+    margin-top: 50px;
+}
+#email_input{
+    width: 250px;
+    height: 30px;
+    margin-left: 75px;
+}
+#messeage_input{
+    width: 250px;
+    height: 100px;
+    margin-left: 75px;
+}
+#sendBtn{
+    width: 250px;
+    height: 30px;
+    margin-left: 75px;
+    background-color:  rgb(94, 218, 94);
+}
+.div5{
+    max-width: 100%;
+    height: 10%;
+    background-color:  rgb(94, 218, 94);
+    margin-bottom: 40px;
+    color: white;
+}
+#text8{
+    margin-left: 50%;
+}
+@media(max-width:1245px) {
+    #aboutMe{
+        margin-left: 3%;
+    }
+    #text1{
+        margin-left:25%;
+    }
+    button{
+        margin-left: 48.5%;
+    }
+    .icons_3{
+        margin-right:20%;
+    }
+}
+@media(max-width:990px){
+    #home{
+        font-size: 15px;
+    }
+    #aboutMe{
+        margin-left: 2%;
+        font-size: 15px;
+    }
+    button{
+        margin-left: 46%;
+    }
+    #text1{
+        margin-left: 20%;
+    }
+    span{
+        font-size: 25px;
+    }
+}
+@media(max-width:790px) {
+    #home{
+        font-size: 10px;
+    }
+    #aboutMe{
+        margin-left: 1%;
+        font-size: 10px;
+    }
+    span{
+        font-size: 20px;
+    }
+    .register{
+        top: 10%;
+        left: 20%;
+    }
+    
+
+}
+@media(max-width:520px) {
+    #home{
+        font-size: 10px;
+    }
+    #aboutMe{
+        margin-left: 1%;
+        font-size: 10px;
+    }
+    span{
+        font-size: 20px;
+    }
+    #name_div31{
+        font-size: 15px;
+    }
+    .register{
+        left: 10%;
+    }
+}
+@media(max-width:428px){
+    #home{
+        font-size: 7px;
+    }
+    #aboutMe{
+        margin-left: 0.4%;
+        font-size: 7px;
+    }
+    #text1{
+        margin-left: 10%;
+    }
+    #name_div31{
+        font-size: 10px;
+    }
+    .register{
+        left: 0%;
+    }
+}
